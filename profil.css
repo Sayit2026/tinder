@@ -130,7 +130,7 @@
 
 /* COEUR */
 .is-match .say-match-icon::before{
-    content:"♥";
+    content:"❤";
 
     position:absolute;
     top:50%;
@@ -145,7 +145,7 @@
 
 /* COEUR CASSÉ */
 .is-no-match .say-match-icon::before{
-    content:"💔";
+    content:"✖";
 
     position:absolute;
     top:50%;
