@@ -95,3 +95,87 @@
     text-transform:uppercase;
 }
 
+
+
+/* =========================================
+   RÉSULTAT MATCH
+========================================= */
+
+.say-match-result{
+    width:300px;
+    margin:20px auto;
+    padding:15px 18px;
+    box-sizing:border-box;
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    background:#faf6f0;
+    border:1px solid #e9e0d9;
+    border-radius:8px;
+}
+
+.say-match-icon{
+    position:relative;
+    display:block;
+    flex:0 0 46px;
+
+    width:46px;
+    height:46px;
+
+    background:#c78a7e;
+    border-radius:50%;
+}
+
+/* COEUR */
+.is-match .say-match-icon::before{
+    content:"♥";
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    color:#faf6f0;
+    font-family:Arial,sans-serif;
+    font-size:23px;
+    line-height:1;
+}
+
+/* COEUR CASSÉ */
+.is-no-match .say-match-icon::before{
+    content:"💔";
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    font-size:21px;
+    line-height:1;
+}
+
+.say-match-info{
+    min-width:0;
+    text-align:left;
+}
+
+.say-match-status{
+    color:#c78a7e;
+    font-family:Georgia,serif;
+    font-size:19px;
+    font-style:italic;
+    line-height:1;
+}
+
+.say-match-small{
+    margin-top:5px;
+
+    color:#98928b;
+    font-family:Arial,sans-serif;
+    font-size:9px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
