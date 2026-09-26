@@ -177,3 +177,17 @@
     text-transform:uppercase;
 }
 
+.say-match-result.is-like .say-like-icon {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:42px;
+    height:42px;
+    flex:0 0 42px;
+    border-radius:50%;
+    background:#f2e8e0;
+    color:#b96f5e;
+    font-size:22px;
+    line-height:1;
+}
+
