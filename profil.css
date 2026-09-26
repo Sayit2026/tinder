@@ -21,35 +21,48 @@
     object-fit:cover;
 }
 
-.say-dating-like{
+.say-dating-heart{
     position:absolute;
     top:12px;
     right:12px;
+    z-index:2;
 
     width:32px;
     height:32px;
+
     display:flex;
     align-items:center;
     justify-content:center;
+
+    box-sizing:border-box;
 
     background:#c78a7e;
     border-radius:50%;
 
     color:#fff;
+    font-family:Arial,sans-serif;
     font-size:17px;
+    line-height:1;
 }
 
 .say-dating-content{
+    position:relative;
     padding:15px;
+    background:#faf6f0;
 }
 
 .say-dating-name{
     color:#54534e;
     font-family:Georgia,serif;
-    font-size:20px;
+    font-size:18px;
     line-height:1;
 }
 
+.say-dating-about{
+    color:#54534e;
+    font-size:11px;
+    line-height:1.5;
+}
 .say-dating-line{
     height:1px;
     margin:12px 0;
@@ -67,8 +80,3 @@
     text-transform:uppercase;
 }
 
-.say-dating-about{
-    color:#54534e;
-    font-size:11px;
-    line-height:1.5;
-}
