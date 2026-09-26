@@ -1,0 +1,74 @@
+.say-dating{
+    width:200px;
+    margin:20px auto;
+    overflow:hidden;
+
+    background:#faf6f0;
+    border:1px solid #e9e0d9;
+    border-radius:8px;
+}
+
+.say-dating-photo{
+    position:relative;
+    width:200px;
+    height:320px;
+}
+
+.say-dating-photo img{
+    display:block;
+    width:200px;
+    height:320px;
+    object-fit:cover;
+}
+
+.say-dating-like{
+    position:absolute;
+    top:12px;
+    right:12px;
+
+    width:32px;
+    height:32px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#c78a7e;
+    border-radius:50%;
+
+    color:#fff;
+    font-size:17px;
+}
+
+.say-dating-content{
+    padding:15px;
+}
+
+.say-dating-name{
+    color:#54534e;
+    font-family:Georgia,serif;
+    font-size:20px;
+    line-height:1;
+}
+
+.say-dating-line{
+    height:1px;
+    margin:12px 0;
+    background:#e9e0d9;
+}
+
+.say-dating-title{
+    margin-bottom:7px;
+
+    color:#c78a7e;
+    font-family:Arial,sans-serif;
+    font-size:9px;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.say-dating-about{
+    color:#54534e;
+    font-size:11px;
+    line-height:1.5;
+}
