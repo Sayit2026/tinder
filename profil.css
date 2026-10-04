@@ -189,6 +189,16 @@
     color:#b96f5e;
     font-size:22px;
     line-height:1;
+    overflow:hidden;
+}
+
+.say-match-result.is-like .say-like-icon img {
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    border-radius:50%;
 }
 
 .say-like-status{
